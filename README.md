@@ -10,6 +10,8 @@ Terraform files are run as <b><i>instance-principal</i></b> on OCI and hence ter
 No OCI credentials are stored on Azure side. Only the PAT is need for the OCI runner (Azure DevOps agent) to connect to Azure Dev and start listening for pipeline jobs.
 
 <p>
-    
+Terraform state is stored on OCI Object Storage private Bucket.
+
+<p>    
 <img src="azure-oci-tf.png" width="800" />
 
