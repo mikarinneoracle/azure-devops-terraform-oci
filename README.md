@@ -12,6 +12,14 @@ No OCI credentials are stored on Azure side. Only the PAT is need for the OCI ru
 <p>
 Terraform state is stored on OCI Object Storage private Bucket.
 
+<p>
+The following resources are created within the example terraform files:
+<ul>
+    <li>VCN</li>
+    <li>Compute VM with ssh access</li>
+    <li>Database (ATP)</li>
+</ul>
+
 <p>    
 <img src="azure-oci-tf.png" width="800" />
 
