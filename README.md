@@ -23,3 +23,7 @@ The following resources are created within the example terraform files:
 <p>    
 <img src="azure-oci-tf.png" width="800" />
 
+Running thru pipeline:
+<p>    
+<img src="tf-result.png" width="800" />
+    
