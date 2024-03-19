@@ -34,12 +34,14 @@ Running thru pipeline:
 Change Terraform authorization to <b><i>resource-principal</i></b> <a href="https://github.com/mikarinneoracle/azure-devops-terraform-oci/blob/main/terraform/versions.tf#L15">Config in Terraform</a>:
 
 <code>
-    provider "oci" {
-        auth = "ResourcePrincipal"
-        region = "eu-amsterdam-1"
-    }
+provider "oci" {
+    auth = "ResourcePrincipal"
+    region = "eu-amsterdam-1"
+}
 </code>
 
+<p>
+    
 <a href="https://github.com/mikarinneoracle/azure-devops-terraform-oci/blob/main/build_spec.yaml">Build_spec.yaml</a> for OCI DevOps.
 
 
